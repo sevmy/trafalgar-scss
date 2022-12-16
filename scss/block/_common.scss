@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @include flexCenter;
+    @include mp0;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none ;
+}
+
+.container {
+    width: 1200px;
+}

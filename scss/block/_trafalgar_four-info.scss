@@ -1,0 +1,32 @@
+.trafalgar_four-info {
+    @include flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 35px;
+    margin-top: 265px;
+
+    .doma_box {
+        h2 {
+          @include fontFamily;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          width: 254px;
+          height: 96px;
+          color: #000000;  
+        }
+        .line-three {
+          display: inline-block;
+          width: 56px;
+          height: 2px;
+          background-color: #000000;
+        } 
+       p {
+        @include fontFamily;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7D7987;
+       }    
+    }
+}

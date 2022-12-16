@@ -1,0 +1,27 @@
+.header-box {
+    @include flex;
+    @include mp0;
+    justify-content: space-between;
+    
+    
+     .navbar {
+
+        ul{
+            @include flex;
+            gap: 40px;
+
+
+            .link {
+                font-size: 18px;
+
+                a {
+                    color: #aaa;
+                    transition: 0.4s ease;
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+     }
+}

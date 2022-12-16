@@ -1,0 +1,42 @@
+.trafalgar_three-info {
+    @include flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-top: 250px;
+
+    .lhp_box {
+      h2 {
+        @include fontFamily;
+        font-weight: 700;
+        font-size: 36px;
+        color: #000000; 
+      } 
+
+
+      .line-second {
+        display: inline-block;
+        width: 56px;
+        height: 2px;
+        background-color: #000000;
+      }
+       p {
+        @include fontFamily;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7D7987;
+        width: 450px;
+        height: 120px; 
+        margin-bottom: 37px;
+       }
+       .general_link-info {
+        padding: 15px 20px;
+        color: #458ff6;
+        border-radius: 55px;
+        @include fontFamily;
+        font-weight: 700;
+        font-size: 18px;
+        border: 1px solid #458ff6;
+       }
+    }
+}
